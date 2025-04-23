@@ -1,124 +1,131 @@
-# MC Enchantment Cracker Tutorial
+# MC 附魔破解器教程
 
 ![](./img/RckQcaF.png)
 
-In this album I'll be explaining how to use the Enchantment Cracker tool.
+在此页面中，我将解释如何使用 Enchantment Cracker 工具。
 
-## You will need:
-- Whatever items you want to enchant.
-- The same number of items for dummy enchantments, plus 2 more.
-- Lapis and levels for enchanting. 4 lapis+levels per enchanted item, plus 2 more lapis and 29 more levels.
-- An enchanting area that has easily manipulable bookshelves (I used a silk-touch axe).
-- The seed cracking tool (https://github.com/Earthcomputer/EnchantmentCracker/)
+## 你将需要:
 
-This all needs to be obtained before starting.
+- 任何你想要附魔的物品。
+- 数量相同的虚设附魔物。额外再加 2，用于计算玩家种子。
+- 用于附魔的青金石和等级。每个附魔一个物品需要 4 个青金石 + 等级，额外再加 2 个青金石和 29 个等级。
+- 一个附魔的区域，有易于操作的书架（我使用火把来阻挡附魔台和书架的连接）。
+- 种子破解工具 (https://github.com/Earthcomputer/EnchantmentCracker/)
 
-In this example I want to enchant a full set of diamond armour, so I need:
-- That armour
-- 6 dummy enchantables (I used books)
-- 18 lapis (4 per piece + 2)
-- 41 levels (4 per piece + 29)
-- Enchant area + cracking tool
+**所有这些都需要在开始附魔之前取得。**
+
+在这个例子中，我想为全套钻石盔甲附魔，所以我需要：
+
+- 那副钻甲
+- 6 个虚设可附魔物（我用的是书）
+- 18 颗青金石（每件附魔 4 颗 + 2 颗）
+- 41 经验等级（每件附魔 4 个等级 + 29 个等级）
+- 附魔区域 + 破解工具
 
 > [!IMPORTANT]\
-> Do not do anything else during the entire process. A lot of things update your player seed, and if you do any of those things the entire process must be started over. This is why everything must be obtained before starting, as most (if not all) forms of xp farming will update your player seed, and getting everything else can also do the same.
+> 整个过程中请勿进行任何其他操作。很多操作都会更新你的玩家种子，比如冲刺或丢弃物品等。如果你进行任何操作，整个过程都必须重新开始。这就是为什么在开始之前必须完成所有操作，因为大多数（如果不是全部的话）经验刷取都会更新你的玩家种子，完成其他操作也会更新你的玩家种子。
 
-![](./img/hDjn83V.png)
+![](./img/0.png)
 
-## Step 1: Priming your enchanting seed
+## 第一步：准备你的附魔种子
 
-To ensure that your enchanting seed is correct to start with, enchant a dummy item with 1 lapis and 1 level. Your enchanting seed is only updated after doing an enchantment, but your player seed (which the enchanting seed comes from) can be updated from a multitude of things, such as dropping items - which is used to our advantage later.
+为了确保你的附魔种子从一开始就正确，请用 1 颗青金石和 1 级附魔等级为一个虚设可附魔物附魔。你的附魔种子只有在附魔完成后才会更新，但你的玩家种子（附魔种子的来源）可以通过多种方式更新，例如丢弃物品——这在我们之后会用到。
 
-Do not toss the dummy enchantment item on the ground. This will change your player seed and break the process. You can however put it into a chest.
+不要将虚设可附魔物扔到地上。这会改变你的玩家种子并中断整个过程。不过，你可以将其放入箱子中。
 
-## Step 2: Fill in the enchanting info on the cracker
+![](./img/1.png)
 
-Put the number of bookshelves into the number field over the shelves on the tool, and put the level requirements in below that. It should look like the image above.
+## 第二步：在破解器上填写附魔信息
 
-![](./img/lyj6p0K.png)
+在工具上的书架中的数字栏中输入书架数量，并在下方输入等级要求。结果应该如上图所示。
 
-## Step 3: Search for the first seed
+![](./img/2.png)
 
-Press "Check" and wait for it to find what seeds you could have.
+## 第三步：寻找第一个种子
 
-Once it finishes it will tell you how many seeds fit the info you gave.
+按下 “检查” 按钮，等待它找到你可能的种子。\
+完成后，它会告诉你根据你提供的信息有多少可能的种子。
 
-![](./img/4vPgPBx.png)
+![](./img/3.png)
 
-## Step 4: Keep searching
+## 第四步：继续搜索
 
-Reduce the number of bookshelves by 1, and put in the info again. This will reduce the number of seeds you could have.
+将书架数量减少 1，然后再次输入信息。这会减少可能的种子数量。\
+可以参考 [wiki](https://minecraft.wiki/w/Enchanting_mechanics#Selecting_an_enchantment_level) 使用火把来禁用指定数量的书架。
 
-Keep doing this until...
+重复步骤直到……
 
-![](./img/oDdu9Vm.png)
+![](./img/4.png)
 
-## Step 5: First seed found
+## 第五步：找到第一个种子
 
-You've found the first enchanting seed. This will automatically be entered into "XP Seed 1".
+你找到了第一颗附魔种子。它将自动填入 “XP种子 1” 中。
 
-Usually this happens once you get down to 10 bookshelves, but I actually still had 2 possible seeds at 10.
+通常，当你的书架数量减少到 10 个时就会发生这种情况，但实际上我在 10 个书架时仍然有 2 个可能的种子。
 
-If it instead says "No possible seeds", press "Reset" and start again from step 2.
-This usually means that you entered some information incorrectly, but it can also mean that the server you're playing on does things differently, in which case the tool can't be used.
+如果显示 “没有可能的种子”，请按 “重置” 并从步骤 2 重新开始。
+这通常意味着你输入了一些错误的信息，但也可能意味着你正在玩的服务器的操作有所不同，在这种情况下该工具无法使用。
 
-![](./img/a3692s3.png)
+![](./img/5.png)
 
-## Step 6: Search for the second seed
+## 第六步：搜索第二个种子
 
-Press "Reset", repeat steps 1-5 again.
+按 “重置”，重复步骤 1-5。
 
-![](./img/i3Ln8hl.png)
+![](./img/6.png)
 
-## Step 7: Found second seed
+## 第七步：找到第二颗种子
 
-You now have both enchanting seeds. Which means...
+现在你拥有了两颗附魔种子。这意味着……
 
-![](./img/mu9jrmW.png)
+![](./img/7.png)
 
-## Step 8: Calculate player seed
+## 第八步：计算玩家种子
 
-You can now press "Calculate Seed", and if all goes well it will work out your full player seed.
+现在你可以点击 “计算种子”，如果一切顺利，系统将计算出你的完整玩家种子。\
+如果此步骤失败，你可能需要重新开始。
 
-If this step fails, you may have to start over.
+但是，如果你在计算第一个种子之前忘记为虚设可附魔物附魔，你可以将第一个种子替换为第二个种子（第二个种子留空），然后返回步骤 6。
 
-However, if you forgot to enchant a dummy item before working out the first seed, you can replace the first seed with the second seed (leaving the second seed blank), and go back to step 6.
+现在到了有趣的部分：利用机制获利！
 
-Now comes the fun part: Exploiting mechanics for profit!
+![](./img/8.png)
 
-![](./img/wOuTEKB.png)
+## 第九步：选择你想要的附魔
 
-## Step 9: Pick your desired enchantments
+现在你已经拥有了玩家种子，你可以在顶部选择要附魔的物品（所有装备材料均支持），然后在下方选择你想要的附魔。
 
-Now that you have your player seed, you can pick the item you're enchanting at the top (all equipment materials supported - image is out of date) and select which enchantments you want below.
+如果你不想要某个附魔，请按其旁边的 X。\
+如果你想要某个附魔，请按其旁边的 1-5（如果只有一个等级，请按 +）。\
+如果你不介意某个附魔，请保留它。\
+选择你想要的附魔时，你选择的等级是最低等级时。你得到的附魔结果可能会比你指定的更好。
 
-If you do not want an enchantment, press X next to it.
-If you want an enchantment, press 1-5 (or + if it only has one level) next to it.
-If you do not care about an enchantment, leave it.
+选定附魔后，点击 “计算”，信息将显示在下方：
 
-When picking a desired enchantment, the level you pick is the minimum level. You might get an enchantment result that is better than what you specified.
-
-Once you've picked out your enchantments, press "Calculate" and information will appear below:
-- Cobblestone: How many single items to drop (large amounts show number of stacks for convenience, but you still drop one at a time)
-- Lapis: How many levels to spend
-- Bookshelves: How many bookshelves to use
+- 圆石：需要丢弃的单件物品数量（为了方便起见，数值较大的物品会显示堆叠数量，但你仍应每次只丢弃一个）
+- 青金石：需要消耗多少等级
+- 书架：需要使用多少个书架
 
 > [!NOTE]\
-> Items might not list the maximum level available for an enchantment, for instance a diamond sword will not list sharpness 5 but a gold sword will. This is because the enchantment is impossible to directly obtain on that item due to the enchantability of that item.
+> 物品可能不会列出可附魔的最高等级，例如，钻石剑不会列出锋利度5，但金剑会。这是因为该物品的可附魔性使其无法直接获得该附魔。
 
-![](./img/BFYAuuk.png)
+![](./img/9.png)
 
-If the number of items to drop is a number:
-- Drop the number of items specified, ONE AT A TIME (if 0, ignore this step)
-- Enchant a dummy item
-- Enchant your specified item with the number of levels and bookshelves stated
-- Press "Done" to update your seed on the tool
+如果要丢弃的物品数量是数字：
 
-If the number of items to drop is "No dummy":
-- Directly enchant your item, no item drops or dummy enchants needed this time
-- Press "Done"
+- 按 Q 丢弃指定数量的物品（如果为 0，则忽略此步骤）(可以捡起)
+- 为虚设可附魔物附魔
+- 使用指定等级和书架数量为你指定的物品附魔
+- 按 “完成” 更新工具上的种子
 
-If the number of items to drop is "No match":
-The desired enchantments couldn't be found after trying all combinations up to dropping 10000 items. Chances are your desired enchantments are too strict, or you have an impossible combination (sharpness + bane of arthropods).
+如果要丢弃的物品数量为空：
 
-Note: Enchanting a book is particularly finicky, as they are far more likely to not find your desired enchantments (or require a lot of dropping). This is due to the fact books can have any non-treasure enchantment.
+- 直接为你指定的物品附魔，本次无需丢弃物品或为虚设可附魔物附魔
+- 按 “完成”
+
+如果要消耗的等级或需要的书架数量是 “-”：
+
+尝试所有组合（最多掉落 10000 件物品）后，仍未找到所需的附魔。这可能是因为你所需的附魔条件过于严格，或者你遇到了无法实现的组合（锋利 + 节肢动物克星）。
+
+> [!NOTE]\
+> 书籍附魔非常挑剔的，因为书籍很可能找不到你想要的附魔（或者需要多次丢弃）。这是因为书籍可以带有任何非宝藏附魔。
